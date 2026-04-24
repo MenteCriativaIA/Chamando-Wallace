@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montagem PC Letycia 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+        .card { background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        .checklist-item input[type="checkbox"] { width: 1.2rem; height: 1.2rem; cursor: pointer; }
+    </style>
+</head>
+<body class="p-4 md:p-8 text-slate-800">
+
+    <div class="max-w-2xl mx-auto">
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-blue-600 mb-2">🛠️ Missão: PC da Letycia</h1>
+            <p class="text-slate-500 italic">Fala, Wallace! Segue o guia completo para a montagem desse monstro.</p>
+        </header>
+
+        <!-- Intro -->
+        <div class="card p-6 mb-6 border-l-4 border-blue-500">
+            <p class="mb-4">
+                Excelente seleção de hardware, <strong>Leandro</strong>. Esse setup para a <strong>Letycia</strong> está muito equilibrado para 2026, especialmente com a <strong>RTX 5060</strong> e os <strong>32GB de RAM</strong>, garantindo longevidade e excelente performance em 1080p ou 1440p.
+            </p>
+        </div>
+
+        <!-- Lista de Itens -->
+        <section class="mb-8">
+            <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">📦 Lista de Componentes</h2>
+            <div class="card overflow-hidden">
+                <ul class="divide-y divide-slate-100">
+                    <li class="p-4 hover:bg-slate-50 transition">
+                        <span class="block font-semibold">💾 Armazenamento</span>
+                        <span class="text-sm text-slate-600">SSD 1TB Kingston Nv2, M.2 2280 PCIe, NVMe (3500MB/s)</span>
+                    </li>
+                    <li class="p-4 hover:bg-slate-50 transition">
+                        <span class="block font-semibold">🔌 Placa-Mãe</span>
+                        <span class="text-sm text-slate-600">MSI B550M Pro-VDH WiFi, AMD AM4, mATX, DDR4</span>
+                    </li>
+                    <li class="p-4 hover:bg-slate-50 transition">
+                        <span class="block font-semibold">🎮 Placa de Vídeo</span>
+                        <span class="text-sm text-blue-600 font-medium">Gigabyte GeForce RTX 5060 WindForce Max OC 8GB GDDR7</span>
+                    </li>
+                    <li class="p-4 hover:bg-slate-50 transition">
+                        <span class="block font-semibold">❄️ Cooler</span>
+                        <span class="text-sm text-slate-600">Thermalright Assassin Spirit 120 EVO, ARGB, 120mm</span>
+                    </li>
+                    <li class="p-4 hover:bg-slate-50 transition">
+                        <span class="block font-semibold">🧠 Processador</span>
+                        <span class="text-sm text-slate-600">AMD Ryzen 7 5700X (8-Core, 16-Threads, 4.6GHz Turbo)</span>
+                    </li>
+                    <li class="p-4 hover:bg-slate-50 transition">
+                        <span class="block font-semibold">⚡ Memória RAM (Total 32GB)</span>
+                        <span class="text-sm text-slate-600">4x 8GB Team Group T-Force Vulcan Z, DDR4, 3200MHz, C16</span>
+                    </li>
+                    <li class="p-4 hover:bg-slate-50 transition">
+                        <span class="block font-semibold">🏠 Gabinete</span>
+                        <span class="text-sm text-slate-600">Mancer Goblin V2, Branco (3 Fans Rainbow)</span>
+                    </li>
+                    <li class="p-4 hover:bg-slate-50 transition">
+                        <span class="block font-semibold">🔋 Fonte</span>
+                        <span class="text-sm text-slate-600">MSI MAG A650BN - 650W, 80 Plus Bronze</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Análise Técnica (VERBOSE) -->
+        <section class="mb-8 bg-slate-900 text-slate-300 p-6 rounded-xl shadow-inner">
+            <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2 border-b border-slate-700 pb-2">
+                🖥️ Análise Técnica (MODO VERBOSE)
+            </h2>
+            
+            <div class="space-y-6 text-sm leading-relaxed">
+                <div>
+                    <p class="text-blue-400 font-bold uppercase tracking-wider">Processador:</p>
+                    <p>AMD Ryzen 7 5700X, 8-Core, 16-Threads, 3.4GHz (4.6GHz Turbo). <br><strong>Observação:</strong> Este CPU não possui cooler box, exigindo a instalação precisa do Thermalright.</p>
+                </div>
+
+                <div>
+                    <p class="text-blue-400 font-bold uppercase tracking-wider">Cooler:</p>
+                    <p>Thermalright Assassin Spirit 120 EVO, ARGB, 120mm. <br><strong>Requisito:</strong> Aplicação de pasta térmica de qualidade e conexão do cabo ARGB no header da placa-mãe para controle de iluminação.</p>
+                </div>
+
+                <div>
+                    <p class="text-blue-400 font-bold uppercase tracking-wider">Placa-Mãe:</p>
+                    <p>MSI B550M Pro-VDH WiFi. <br><strong>Requisito:</strong> Antenas Wi-Fi devem ser rosqueadas e o BIOS deve estar atualizado para reconhecer a série 5000.</p>
+                </div>
+
+                <div>
+                    <p class="text-blue-400 font-bold uppercase tracking-wider">Memória RAM:</p>
+                    <p>4x 8GB Team Group T-Force Vulcan Z (Total 32GB) 3200MHz. <br><strong>Requisito:</strong> Ativação do perfil XMP na BIOS para garantir a frequência de 3200MHz.</p>
+                </div>
+
+                <div>
+                    <p class="text-blue-400 font-bold uppercase tracking-wider">Placa de Vídeo:</p>
+                    <p>Gigabyte GeForce RTX 5060 WindForce Max OC 8GB GDDR7. <br><strong>Requisito:</strong> Verificação de folga no gabinete e conexão correta do cabo de energia da fonte.</p>
+                </div>
+
+                <div>
+                    <p class="text-blue-400 font-bold uppercase tracking-wider">Armazenamento:</p>
+                    <p>SSD 1TB Kingston Nv2 (M.2 NVMe). <br><strong>Requisito:</strong> Instalação no slot M.2 principal (geralmente o superior) para máxima largura de banda PCIe.</p>
+                </div>
+
+                <div>
+                    <p class="text-blue-400 font-bold uppercase tracking-wider">Fonte de Alimentação:</p>
+                    <p>MSI MAG A650BN. <br><strong>Requisito:</strong> Organização de cabos (cable management) para não obstruir o fluxo de ar do gabinete Mancer Goblin.</p>
+                </div>
+
+                <div>
+                    <p class="text-blue-400 font-bold uppercase tracking-wider">Gabinete:</p>
+                    <p>Mancer Goblin V2 (Branco). <br><strong>Requisito:</strong> Instalação das 3 fans Rainbow inclusas e conexão dos painéis frontais (USB, Áudio, Power).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Checklist Investigativo -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold text-red-600 mb-4 flex items-center gap-2">🚨 Checklist Investigativo: Auditoria</h2>
+            <div class="card p-6 border-t-4 border-red-500">
+                
+                <h3 class="font-semibold text-slate-700 mb-4 flex items-center gap-2">🛠️ Verificação Física e Conexões</h3>
+                <div class="space-y-4 mb-8">
+                    <label class="flex items-start gap-3 checklist-item p-2 hover:bg-red-50 rounded cursor-pointer">
+                        <input type="checkbox" class="mt-1">
+                        <span class="text-sm"><strong>Abrir o Gabinete:</strong> Conferir visualmente se os 4 pentes de memória estão totalmente encaixados.</span>
+                    </label>
+                    <label class="flex items-start gap-3 checklist-item p-2 hover:bg-red-50 rounded cursor-pointer">
+                        <input type="checkbox" class="mt-1">
+                        <span class="text-sm"><strong>Conferir GPU:</strong> Verificar se a trava do slot PCIe está fechada e o cabo de alimentação inserido até o final.</span>
+                    </label>
+                    <label class="flex items-start gap-3 checklist-item p-2 hover:bg-red-50 rounded cursor-pointer">
+                        <input type="checkbox" class="mt-1">
+                        <span class="text-sm"><strong>Auditar Painel Frontal:</strong> Testar portas USB frontais e entrada de fone/microfone.</span>
+                    </label>
+                    <label class="flex items-start gap-3 checklist-item p-2 hover:bg-red-50 rounded cursor-pointer">
+                        <input type="checkbox" class="mt-1">
+                        <span class="text-sm"><strong>Conferir Fluxo de Ar:</strong> Verificar se todas as fans giram no sentido correto (frente puxa, trás expele).</span>
+                    </label>
+                </div>
+
+                <h3 class="font-semibold text-slate-700 mb-4 flex items-center gap-2">💻 Verificação de Software (Lógica)</h3>
+                <div class="space-y-4">
+                    <label class="flex items-start gap-3 checklist-item p-2 hover:bg-blue-50 rounded cursor-pointer">
+                        <input type="checkbox" class="mt-1">
+                        <span class="text-sm"><strong>Acessar BIOS:</strong> Pressionar DEL e localizar "Memory Speed" (Deve constar 3200MHz).</span>
+                    </label>
+                    <label class="flex items-start gap-3 checklist-item p-2 hover:bg-blue-50 rounded cursor-pointer">
+                        <input type="checkbox" class="mt-1">
+                        <span class="text-sm"><strong>Versão da BIOS:</strong> Verificar se a versão é de 2026 (mais estável).</span>
+                    </label>
+                    <label class="flex items-start gap-3 checklist-item p-2 hover:bg-blue-50 rounded cursor-pointer">
+                        <input type="checkbox" class="mt-1">
+                        <span class="text-sm"><strong>Gerenciador de Dispositivos:</strong> Confirmar ausência de triângulos amarelos (drivers).</span>
+                    </label>
+                    <label class="flex items-start gap-3 checklist-item p-2 hover:bg-blue-50 rounded cursor-pointer">
+                        <input type="checkbox" class="mt-1">
+                        <span class="text-sm"><strong>Auditar Placa de Vídeo:</strong> Conferir driver NVIDIA oficial e versão do sistema.</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé / Orçamento -->
+        <footer class="text-center pb-12">
+            <div class="bg-yellow-50 border border-yellow-200 p-4 rounded-lg mb-6">
+                <p class="text-sm text-yellow-800">
+                    ⏱️ <strong>Tempo Estimado:</strong> 3 horas
+                </p>
+            </div>
+            
+            <p class="text-slate-600 mb-6 font-medium italic">
+                💡 Dica: Peça para configurar o "Fast Boot" na BIOS da MSI!
+            </p>
+
+            <div class="space-y-4">
+                <p class="font-bold text-lg">E aí, Wallace? Vai vir aqui em casa quando? Agora sou eu quem precisa da sua ajuda!!!</p>
+                <div class="flex gap-4 justify-center">
+                    <!-- Link do WhatsApp atualizado -->
+                    <a href="https://api.whatsapp.com/send/?phone=5521977447573&text&type=phone_number&app_absent=0" 
+                       target="_blank"
+                       class="bg-green-600 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:bg-green-700 active:scale-95 transition flex items-center gap-2">
+                        <span>Confirmar com Leandro</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
